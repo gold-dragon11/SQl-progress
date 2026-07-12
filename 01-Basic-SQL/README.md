@@ -100,4 +100,6 @@ LIMIT 5
 
 <img width="466" height="224" alt="image" src="https://github.com/user-attachments/assets/73b9c205-e06f-4c46-85c3-9682bd120a87" />
 
-
+##Відеодемонстрація процесу
+Для підтвердження самостійного виконання завдань (Proof of Work) я записав процес написання коду. Відео прискорено вдвічі (2x) для економії вашого часу:
+https://drive.google.com/file/d/1LvpnzuOQA04_x2ncGtfneWYq_sSfCakL/view?usp=sharing
