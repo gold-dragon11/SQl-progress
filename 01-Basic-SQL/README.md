@@ -100,6 +100,27 @@ LIMIT 5
 
 <img width="466" height="224" alt="image" src="https://github.com/user-attachments/assets/73b9c205-e06f-4c46-85c3-9682bd120a87" />
 
+
+8. Вивести дані таблиці, додавши колонку exp_level_full, з повною назвою рівня досвіду працівників відповідно до колонки exp_level.
+**Мій SQL-запит:**
+```sql
+SELECT *
+, CASE
+WHEN exp_level = 'SE' THEN 'SENIOR_LEVEL'
+WHEN exp_level = 'MI' THEN 'MIDDLE_LEVEL'
+WHEN exp_level = 'EN' THEN 'ENTRY_LEVEL'
+ELSE 'EXECUTIVE_LEVEL'
+END
+AS exp_level_full
+FROM salaries
+LIMIT 100
+;
+```
+Результат:
+
+<img width="1346" height="583" alt="image" src="https://github.com/user-attachments/assets/474f01df-7495-4edc-bf8b-6aa17b9e4b7f" />
+
+
 ##Відеодемонстрація процесу
 Для підтвердження самостійного виконання завдань (Proof of Work) я записав процес написання коду. Відео прискорено вдвічі (2x) для економії вашого часу:
 https://drive.google.com/file/d/1LvpnzuOQA04_x2ncGtfneWYq_sSfCakL/view?usp=sharing
