@@ -1,5 +1,5 @@
-Загальна ввідна таблиця даних
-<img width="1199" height="602" alt="image" src="https://github.com/user-attachments/assets/a3d92009-f5c1-4898-bc60-ca1ce2bbd15e" />
+Загальна ввідна таблиця даних:
+* [Початкова таблиця з даними для запитів (CSV)](ds_salaries.csv)
 1. Вивести з/п спеціалістів ML Engineer в 2023 році, додати сортування за зростанням зп.
 **Мій SQL-запит:**
 ```sql
