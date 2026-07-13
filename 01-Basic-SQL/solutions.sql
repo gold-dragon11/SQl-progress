@@ -46,3 +46,19 @@ AND job_title = 'ML Engineer'
 ORDER BY salary DESC
 LIMIT 5
 ;
+
+SELECT *
+, CASE
+WHEN exp_level = 'SE' THEN 'SENIOR_LEVEL'
+WHEN exp_level = 'MI' THEN 'MIDDLE_LEVEL'
+WHEN exp_level = 'EN' THEN 'ENTRY_LEVEL'
+ELSE 'EXECUTIVE_LEVEL'
+END
+AS exp_level_full
+FROM salaries
+LIMIT 100
+;
+
+SELECT (COUNT(*) - COUNT(company_location))
+FROM salaries
+;
