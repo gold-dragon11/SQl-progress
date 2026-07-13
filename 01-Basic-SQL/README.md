@@ -121,6 +121,18 @@ LIMIT 100
 <img width="1346" height="583" alt="image" src="https://github.com/user-attachments/assets/474f01df-7495-4edc-bf8b-6aa17b9e4b7f" />
 
 
+9. Дослідити колонку company_location на наявність відсутніх значень.
+**Мій SQL-запит:**
+```sql
+SELECT (COUNT(*) - COUNT(company_location))
+FROM salaries
+;
+```
+Результат:
+
+<img width="397" height="177" alt="image" src="https://github.com/user-attachments/assets/753c8008-6dcc-446c-bad6-2a585a8ac034" />
+
+
 ##Відеодемонстрація процесу
 Для підтвердження самостійного виконання завдань (Proof of Work) я записав процес написання коду. Відео прискорено вдвічі (2x) для економії вашого часу:
 https://drive.google.com/file/d/1LvpnzuOQA04_x2ncGtfneWYq_sSfCakL/view?usp=sharing
